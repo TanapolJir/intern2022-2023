@@ -58,16 +58,10 @@ interface ICardData {
   price: number
   power: number
   isActive: boolean
-  position: { short: string; full: string }
-  club: string
-}
-
-interface ICardMockData {
-  cardName: string
-  price: number
-  power: number
-  isActive: boolean
-  position: { short: string; full: string }
+  position: {
+    short: string
+    full: string
+  }
   club: string
 }
 
@@ -93,7 +87,7 @@ const getNameByCardData = (_cData: any) => {
   return _cData.cardName
 }
 
-export const CardMockData: ICardMockData = [
+export const CardMockData: ICardData[] = [
   {
     cardName: "Tony",
     price: 500,
