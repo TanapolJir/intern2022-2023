@@ -5,7 +5,7 @@
     ? arrow function generic if you want to use -> https://timmousk.com/blog/typescript-arrow-function-generic
 */
 
-const isActive: Boolean = true
+const isActive: boolean = true
 const isUnActive: string = "false"
 const price: number = 1.5
 const thb: number = 30.5
